@@ -20,19 +20,19 @@ def register(element_type: str):
 
 @register("image")
 async def image(data: Dict):
-    type=data.get("type")
+    type = data.get("type")
     if type == "flash":
         return FlashImage(HttpGetProvider(data["url"]))
-    elif type=="show":
-        return ShowImage(HttpGetProvider(data["url"]),)
+    elif type == "show":
+        return ShowImage(HttpGetProvider(data["url"]))
     return Image(HttpGetProvider(data["url"]))
-
-
-@register("poke")
-async def poke(data: Dict):
-    return Poke(data["qq"])
 
 
 @register("redbag")
 async def redbag(data: Dict):
     return RedBag(data["title"])
+
+
+@register("poke")
+async def poke(data: Dict):
+    return Poke(data["qq"])

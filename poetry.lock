@@ -49,7 +49,7 @@ tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>
 
 [[package]]
 name = "avilla-core"
-version = "0.0.10"
+version = "0.0.12"
 description = ""
 category = "main"
 optional = false
@@ -69,14 +69,14 @@ template = ["regex (>=2021.8.3,<2022.0.0)"]
 
 [[package]]
 name = "avilla-onebot"
-version = "0.0.6"
+version = "0.0.7"
 description = ""
 category = "main"
 optional = false
 python-versions = ">=3.8,<4.0"
 
 [package.dependencies]
-avilla-core = ">=0.0.10,<0.0.11"
+avilla-core = ">=0.0.12,<0.0.13"
 
 [[package]]
 name = "chardet"
@@ -159,7 +159,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "0a093520df354236c6fc85c231608480651b156e5e65a6e09c872ef443ea7a0d"
+content-hash = "01959475a7bcb6e8d5a241d919758f06fb92d349e5794feb262d4b2ef91a3e17"
 
 [metadata.files]
 aiofiles = [
@@ -214,12 +214,12 @@ attrs = [
     {file = "attrs-21.2.0.tar.gz", hash = "sha256:ef6aaac3ca6cd92904cdd0d83f629a15f18053ec84e6432106f7a4d04ae4f5fb"},
 ]
 avilla-core = [
-    {file = "avilla-core-0.0.10.tar.gz", hash = "sha256:31dd4963cdd5e7765788f002d7286b71ac3b59475da8fca583be4fc9e07e3f67"},
-    {file = "avilla_core-0.0.10-py3-none-any.whl", hash = "sha256:4879aaba21b2f2da66c3a79ab4e17cf6e4202ea6089b840f89744cf192d6deb2"},
+    {file = "avilla-core-0.0.12.tar.gz", hash = "sha256:683ab783a12c441df6c8ef330df87eb468965dcd97d17355bea474d46fc5db29"},
+    {file = "avilla_core-0.0.12-py3-none-any.whl", hash = "sha256:99416bd5d31310272384172be8bb70f820e8dd1e7ea6eb56b11e814a91951708"},
 ]
 avilla-onebot = [
-    {file = "avilla-onebot-0.0.6.tar.gz", hash = "sha256:421740851314e7b1103df20b36a02fefe7695536bd1c0a277a57ac46927f359a"},
-    {file = "avilla_onebot-0.0.6-py3-none-any.whl", hash = "sha256:c13885c3b309c204031156f3923e4bee87b3df54b0a81473c56f74292d69bcf6"},
+    {file = "avilla-onebot-0.0.7.tar.gz", hash = "sha256:18d7b51d9bd2b55192f8e7390fd4463ebbb540af680e244aa3a1c1d8c6b18011"},
+    {file = "avilla_onebot-0.0.7-py3-none-any.whl", hash = "sha256:e5493769062c778bb310b79817f1a3c078882c4ff07b73d337d0a48a161cb5ce"},
 ]
 chardet = [
     {file = "chardet-4.0.0-py2.py3-none-any.whl", hash = "sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"},

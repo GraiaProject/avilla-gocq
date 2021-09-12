@@ -10,8 +10,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-avilla-core = "^0.0.10"
-avilla-onebot = "^0.0.6"
+avilla-core = "^0.0.12"
+avilla-onebot = "^0.0.7"
 
 [tool.poetry.dev-dependencies]
 

@@ -14,6 +14,12 @@ avilla-core = "^0.0.12"
 avilla-onebot = "^0.0.7"
 
 [tool.poetry.dev-dependencies]
+black = "^21.9b0"
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+include = '\.pyi?$'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
